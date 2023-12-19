@@ -1,0 +1,60 @@
+.yourStory {
+    width: 140px;
+    height: 250px;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0.5px 0.5px rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.yourStory:hover .background {
+    transform: scale(1.05);
+}
+
+.Ycontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 55px;
+    background-color: white;
+    height: 60px;
+
+    
+}
+
+.Ycontent > .plusIcon {
+    position: relative;
+    bottom: 20px;
+    border: 2px solid white;
+    color: blue;
+    background-color:white;
+    border-radius: 50%;
+    
+}
+
+.Ycontent > h4 {
+      font-weight: 600;
+      font-size: smaller;
+      position: relative;
+      bottom: 10px;
+}
+
+
+@media(max-width:573px) {
+    .yourStory {
+        width: 100px;
+    }
+    .ycontent > h4 {
+         font-size: 10px;
+ }
+}
+
+@media(max-width:415px) {
+    .yourStory {
+        width: 80px;
+    }
+
+}

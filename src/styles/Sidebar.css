@@ -1,0 +1,15 @@
+.sidebar {
+    position: fixed;
+    top: 70px;
+    left: 15px;
+
+}
+
+@media(max-width:950px) {
+   .sidebar {
+    display: none;
+   }
+}
+
+
+

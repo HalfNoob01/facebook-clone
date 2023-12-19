@@ -1,0 +1,15 @@
+.messagesender {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:950px) {
+    .feed {
+    margin-left: 60px;
+    }
+ }
+ 
+
+ 

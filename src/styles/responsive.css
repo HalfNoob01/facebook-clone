@@ -1,0 +1,148 @@
+/* Navbar */
+@media (max-width:1235px)  {
+    .navbar__option{
+        width: 70px; 
+    }
+
+}
+@media (max-width:1107px)  {
+    .navbar__option{
+        width: 50px; 
+    }
+}
+@media (max-width:1000px)  {
+   .input {
+            width: 150px;
+    }
+   .input > input {
+            width: 80px;
+    }
+}
+@media (max-width:880px)  {
+  .navbar__right {
+     position: relative;
+     right: 50px;
+  }
+}
+@media (max-width:840px)  {
+  .navbar__right--option {
+      width: 30px;
+      height: 30px;
+  }
+}
+@media (max-width:806px)  {
+    .navbar__middle{
+        width: 300px; 
+    }
+
+}
+@media (max-width:724px)  {
+    .navbar__right--option {
+        position: relative;
+        right: 30px;
+    }
+}
+@media (max-width:695px)  {
+    .input {
+        width: 100px;
+}
+.input > input {
+        width: 50px;
+        font-size: small;
+}
+}
+@media (max-width:645px)  {
+     .navbar__middle {
+        width: 250px;
+     }
+}
+@media (max-width:595px)  {
+    .navbar__right--option {
+        width: 25px;
+        height: 25px;
+    }
+}
+@media (max-width:575px)  {
+    .input {
+        width: 80px;
+}
+.input > input {
+        width: 40px;
+        font-size: x-small;
+}
+ .navbar__middle {
+    width: 200px;
+ }
+}
+@media (max-width:508px)  {
+    .navbar__right--option {
+        width: 20px;
+        height: 20px;
+    }
+}
+@media (max-width:490px)  {
+   .navbar__middle {
+     width: 220px;
+     margin-left: 30px;
+   }
+   .input {
+    display: none;
+   }
+}
+@media (max-width:467px)  {
+   .navbar__middle {
+     width: 150px;
+   }
+
+}
+@media (max-width:455px)  {
+    .navbar__right--option {
+        width: 15px;
+        height: 15px;
+        margin: 10px;
+    }
+}
+@media (max-width:438px)  {
+.navbar__middle {
+    margin-left: 50px;
+}
+ 
+}
+@media (max-width:421px)  {
+  .navbar__middle {
+    position: relative;
+    right: 20px;
+  }
+
+  .navbar__right {
+     position: relative;
+     right: 60px;
+  }
+ 
+}
+@media (max-width:407px)  {
+  .navbar__middle {
+    width: 130px;
+  }
+}
+@media (max-width:386px)  {
+  .navbar__middle {
+    width: 100px;
+    margin-left: 60px;
+  }
+}
+@media (max-width:386px)  {
+  .navbar__middle {
+    width: 70px;
+    margin-left: 80px;
+  }
+  .navbar__right {
+    margin-left: 20px;
+  }
+}
+
+
+
+
+
+

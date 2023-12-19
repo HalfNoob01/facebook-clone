@@ -1,0 +1,146 @@
+
+.marketplace {
+    position: relative;
+    top: 55px;   
+    display: flex;
+    
+}
+
+.marketplace__left {
+    width: 30%;  
+    box-shadow: 0px 0px 5px -2px rgba(1, 1, 1, 0.936);
+    position: fixed;
+    height: 100%;
+    
+}
+
+.marketplace__left-top {
+    position: fixed;
+    z-index: 100;
+    height: fit-content;
+    overflow: hidden;
+    background-color: white;
+   
+    
+}
+
+.marketplace__left-top1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    
+}
+
+.Mtextarea {
+    display: flex;
+    align-items: center;
+    background-color: rgb(242, 238, 245);
+    border-radius: 20px;
+    height: 40px;
+    margin-left:   10px;
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.Mtextarea > input {
+    border: none;
+    outline: none;
+    background-color: inherit;
+    height: 40px;
+    margin-left: 5px;
+    font-size: medium;
+    width: 300px;
+}
+
+.marketplace__left {
+    width: 30%;
+    box-shadow: 0px 0px 5px -2px rgba(1, 1, 1, 0.936);
+    position: fixed;
+    height: 100%;
+    /* Add padding instead of margin */
+}
+
+.scrolling {
+    padding: 10px 10px;
+    overflow-y: scroll;
+    height: 100%;
+    z-index: 0;
+    border-top: 105px solid transparent;
+    border-right: 5px solid transparent;
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color: red #b61010;
+    /* WebKit (Chrome, Safari) scrollbar styles */
+    &::-webkit-scrollbar {
+        width: 8px;
+        
+    }
+
+    &::-webkit-scrollbar-track {
+        background : inherit;
+        border-radius: 10px;    
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: rgb(194, 184, 194);
+        border-radius: 10px;
+      
+    }
+
+}
+
+
+
+.scrolling__option{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 355px;
+}
+
+
+.scrolling__option:hover {
+    background-color: rgb(242, 238, 245);
+}
+
+.scrolling__option-icon {
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(230, 224, 234);
+    border-radius: 50%;
+}
+
+.scrolling__option> h4 {
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.scrolling__option > button {
+    background-color: #f2eff8;
+
+    
+}
+.scrolling__option > button:hover {
+    background-color: rgb(236, 227, 243);
+  
+}
+
+.filters {
+    border-top: 1px solid black;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.333);
+    position: relative;
+    
+}
+
+.marketplace__right {
+   margin-left: 30%;
+    width: 70%;
+    background-color: rgb(242, 236, 245);
+    height: 100vh;
+}

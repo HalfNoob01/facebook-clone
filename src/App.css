@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(242, 236, 245);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.app__body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  margin-right: 20px;
+  background-color: rgb(242, 236, 245);
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.feed {
+   margin-right: 40px;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* App.js */
+
+@media(max-width:900px) {
+    .feed {
+       width: 80%;
+    }
+    .widgets {
+      display: none;
+    }
 }
+@media(min-width:1400px) {
+    .widgets {
+       position: relative;
+       left: 100px;
+    }
+}
+@media(min-width:1450px) {
+    .widgets {
+       position: relative;
+       left: 150px;
+    }
+}
+@media(min-width:1500px) {
+    .widgets {
+       position: relative;
+       left: 200px;
+    }
+}
+@media(min-width:1550px) {
+    .widgets {
+       position: relative;
+       left: 250px;
+    }
+}
+@media(min-width:1600px) {
+    .widgets {
+       position: relative;
+       left: 300px;
+    }
+}
+@media(min-width:1650px) {
+    .widgets {
+       position: relative;
+       left: 350px;
+    }
+}
+@media(min-width:1700px) {
+    .widgets {
+       position: relative;
+       left: 400px;
+    }
+}
+@media(min-width:1750px) {
+    .widgets {
+       position: relative;
+       left: 450px;
+    }
+}
+@media(min-width:1800px) {
+    .widgets {
+       position: relative;
+       left: 500px;
+    }
+}
+@media(min-width:1850px) {
+    .widgets {
+       position: relative;
+       left: 550px;
+    }
+}
+@media(min-width:1900px) {
+    .widgets {
+       position: relative;
+       left: 600px;
+    }
+}
+@media(min-width:1950px) {
+    .widgets {
+       position: relative;
+       left: 650px;
+    }
+}
+@media(min-width:2000px) {
+    .widgets {
+       position: relative;
+       left: 750px;
+    }
+}
+@media(min-width:2050px) {
+    .widgets {
+      display: none;
+    }
+}
+
+
+.feed {
+    margin-right: 40px;
+    
+}
+
+/* App.js */
+
+@media(max-width:900px) {
+     .feed {
+        width: 80%;
+     }
+     .widgets {
+       display: none;
+     }
+}
+@media(min-width:1400px) {
+     .widgets {
+        position: relative;
+        left: 100px;
+     }
+}
+@media(min-width:1450px) {
+     .widgets {
+        position: relative;
+        left: 150px;
+     }
+}
+@media(min-width:1500px) {
+     .widgets {
+        position: relative;
+        left: 200px;
+     }
+}
+@media(min-width:1550px) {
+     .widgets {
+        position: relative;
+        left: 250px;
+     }
+}
+@media(min-width:1600px) {
+     .widgets {
+        position: relative;
+        left: 300px;
+     }
+}
+@media(min-width:1650px) {
+     .widgets {
+        position: relative;
+        left: 350px;
+     }
+}
+@media(min-width:1700px) {
+     .widgets {
+        position: relative;
+        left: 400px;
+     }
+}
+@media(min-width:1750px) {
+     .widgets {
+        position: relative;
+        left: 450px;
+     }
+}
+@media(min-width:1800px) {
+     .widgets {
+        position: relative;
+        left: 500px;
+     }
+}
+@media(min-width:1850px) {
+     .widgets {
+        position: relative;
+        left: 550px;
+     }
+}
+@media(min-width:1900px) {
+     .widgets {
+        position: relative;
+        left: 600px;
+     }
+}
+@media(min-width:1950px) {
+     .widgets {
+        position: relative;
+        left: 650px;
+     }
+}
+@media(min-width:2000px) {
+     .widgets {
+        position: relative;
+        left: 750px;
+     }
+}
+@media(min-width:2050px) {
+     .widgets {
+       display: none;
+     }
+}
+
